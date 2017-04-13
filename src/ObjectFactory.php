@@ -91,7 +91,7 @@ class ObjectFactory extends AbstractFactory
         return $this->maxRecursion;
     }
 
-    public function buildObject(ContainerInterface $container)
+    protected function buildObject(ContainerInterface $container)
     {
         if (null !== $this->getInstance()) {
             return $this->getInstance();
