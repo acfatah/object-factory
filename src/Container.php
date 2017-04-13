@@ -40,7 +40,7 @@ class Container implements ContainerInterface
     }
 
     /**
-     * Sets a factory to a class name.
+     * Sets a factory to an interface or a class name.
      *
      * @param string $class
      * @param \Acfatah\ObjectFactory\AbstractFactory $factory
