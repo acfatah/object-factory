@@ -4,6 +4,7 @@ composer.phar
 #composer.lock
 
 # phpunit files
+phpunit.bat
 phpunit.phar
 phpunit.xml
 test/coverage
